@@ -1,0 +1,20 @@
+# Equation
+# Degrees x (π/180) = Radians
+
+deg = int(input ("Please enter your degrees for conversion:  "))
+
+pi = 3.141592653589793238
+
+x = (deg * (pi/180))
+
+print (x)
+
+
+
+### Math Module
+
+import math
+
+deg = int(input("Please enter you degrees for conversion:  "))
+
+print (math.radians(deg))
