@@ -1,0 +1,4 @@
+import random
+
+x = ("Monday", "Tuesday", "Wendsday", "Thursday", "Friday", "Saturday", "Sunday")
+print(random.choice(x))
